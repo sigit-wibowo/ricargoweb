@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+// next.config.js
+module.exports = {
+  experimental: {
+    allowedDevOrigins: [
+      'http://127.0.0.1:3000', // or whatever port you use
+      'http://localhost:3000',
+    ],
+  },
 };
-
-export default nextConfig;

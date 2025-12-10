@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, Suspense } from 'react';
-import { supabase } from '@/lib/supabaseClient'; 
+import { supabase } from '../../lib/supabaseClient'; 
 import { Truck, ArrowLeft, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
